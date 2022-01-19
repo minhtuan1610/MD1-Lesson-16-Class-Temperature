@@ -5,7 +5,7 @@ class classTemperature {
 
     getFahrenheit() {
         let F = (this.celsius + 32) * 1.8;
-        return F;
+        return parseFloat(F.toFixed(2));
     }
 
     getKelvin() {
